@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* Isso diz ao Tailwind para criar as classes text-main-color, bg-main-color, etc */
+  --color-main-color: var(--main-color);
+}
+
+@layer base {
+  :root {
+    --main-color: #2563eb;
+  }
+}
